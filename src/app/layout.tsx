@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import Nav from "@/components/Navbar/Nav";
 
 const inter = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -15,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="container m-auto">
+          <Nav />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
