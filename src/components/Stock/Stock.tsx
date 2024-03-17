@@ -3,6 +3,7 @@ import React, { Suspense, useState } from 'react';
 import { Tabs } from '../../types/types';
 // import StockSlides from './StockSlides';
 import Loader from '../Loader';
+import NewsClub from './NewsClub';
 
 const tabs: Tabs[] = [
     {
@@ -59,6 +60,7 @@ const Stock = () => {
             <Suspense fallback={<Loader />}>
                 <StockSlides activeTabId={active} />
             </Suspense>
+            <NewsClub/>
         </div>
     );
 };

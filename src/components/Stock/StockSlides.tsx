@@ -5,8 +5,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import '@/styles/stock.css';
-import { motion } from 'framer-motion';
-
 interface StockSlidesProps {
     activeTabId: number;
 }
@@ -29,7 +27,7 @@ const StockSlides: React.FC<StockSlidesProps> = ({ activeTabId }) => {
             >
                 {StockImages[activeTabId - 1].map(item => (
                     <SwiperSlide key={item.id}>
-                        <img className="w-72 rounded-3xl h-96" src={item.img} alt={`Stock ${item.id}`} />
+                        <img className="w-96 rounded-3xl h-80" src={item.img} alt={`Stock ${item.id}`} />
                     </SwiperSlide>
                 ))}
             </Swiper>
