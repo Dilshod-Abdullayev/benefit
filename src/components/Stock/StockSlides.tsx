@@ -11,7 +11,7 @@ interface StockSlidesProps {
 
 const StockSlides: React.FC<StockSlidesProps> = ({ activeTabId }) => {
     return (
-        <div>
+        <div className='mt-12'>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
