@@ -155,3 +155,41 @@ export const StockImages: stockImg[][] = [
         }
     ],
 ]
+export const galery: stockImg[] = [
+    {
+        id: 1,
+        img: 'https://s3-media0.fl.yelpcdn.com/bphoto/AiU0BU3w3KyLa9O6r_7uxQ/348s.jpg'
+    },
+    {
+        id: 2,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQviHUkICykH1rd7N-iClS14zwiyQUxDc7cJ8my_DtiluwSt5uqQ15rLxgmnJ21xPyvBcg&usqp=CAU'
+    },
+    {
+        id: 3,
+        img: 'https://w.forfun.com/fetch/3b/3be10e704076a6d8608dea14eefea529.jpeg'
+    },
+    {
+        id: 4,
+        img: 'https://static.vecteezy.com/system/resources/thumbnails/022/995/026/small_2x/interior-of-a-modern-gym-with-fitness-equipment-generative-ai-photo.jpg'
+    },
+    {
+        id: 5,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD4NdTIVZmhO0nsVLKF4L3Nm3KMfRTwVxnsq5lnEXYuIYbg2Lu1TIeVrAyKdBrJBMaBDI&usqp=CAU'
+    },
+    {
+        id: 6,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUPXZ3BK8r3NAV6c7L3jNRBGRWXak9C2pzA&usqp=CAU'
+    },
+    {
+        id: 7,
+        img: 'https://w.forfun.com/fetch/3b/3be10e704076a6d8608dea14eefea529.jpeg'
+    },
+    {
+        id: 8,
+        img: 'https://cdn.pixabay.com/photo/2016/12/04/22/15/fitness-1882721_640.jpg'
+    },
+    {
+        id: 9,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUPXZ3BK8r3NAV6c7L3jNRBGRWXak9C2pzA&usqp=CAU'
+    }
+]

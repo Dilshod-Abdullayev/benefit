@@ -32,7 +32,7 @@ export default function NewsClub() {
                         },
                     }}
                     modules={[Pagination]}
-                    className="w-2/3 items-center "
+                    className="w-4/5 items-center "
                 >
                     <div>
                         <SwiperSlide>
