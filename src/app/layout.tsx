@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Navbar/Nav";
+import Footer from "@/components/Footer/Footer";
 
 const inter = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({
         <div className="container m-auto">
           <Nav />
           {children}
+          <Footer/>
         </div>
       </body>
     </html>

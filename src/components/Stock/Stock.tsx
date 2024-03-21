@@ -44,13 +44,15 @@ const Stock = () => {
         <div style={{ backgroundColor: '#00100F' }} className='pl-4 pb-20'>
             <div className='w-full  pt-20 stock  bg-cover bg-opacity-95 py-10'>
                 <h1 className='font-extrabold text-white text-5xl'>Акции</h1>
-                <div className='px-4 pt-12 gap-3 flex'>
+                <div className='px-4 pt-12 gap-3 flex max-md:flex-wrap max-md:align-middle'>
                     {tabs.map((item) => (
                         <button
                             key={item.id}
                             onClick={() => handleTabClick(item.id)}
                             className={`p-2 text-xl px-4
                         bg-zinc-600 shadow-2xl  shadow-zinc-900 
+                        max-lg:text-base
+                        max-sm:text-xs
                         rounded-2xl text-white  outline-none border-2 border-zinc-600  font-semibold 
                         ${active === item.id ? 'bg-transparent border-solid border-2 border-white' : 'hover:bg-transparent hover:border-solid hover:border-2 hover:border-white'}`}
                         >

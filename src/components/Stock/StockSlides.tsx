@@ -26,8 +26,8 @@ const StockSlides: React.FC<StockSlidesProps> = ({ activeTabId }) => {
                 className="mySwiper"
             >
                 {StockImages[activeTabId - 1].map(item => (
-                    <SwiperSlide key={item.id}>
-                        <img className="w-96 rounded-3xl h-80" src={item.img} alt={`Stock ${item.id}`} />
+                    <SwiperSlide className='w-full max-sm:flex max-sm:justify-center align-middle' key={item.id}>
+                        <img className="w-96 max-sm:w-full rounded-3xl h-80" src={item.img} alt={`Stock ${item.id}`} />
                     </SwiperSlide>
                 ))}
             </Swiper>

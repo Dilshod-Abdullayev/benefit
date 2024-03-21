@@ -35,7 +35,7 @@ const NavItems: React.FC = () => {
     };
 
     return (
-        <div className='bg-zinc-950 p-4'>
+        <div className='bg-zinc-950 p-4 z-10'>
             <div className='container mx-auto flex justify-between items-center' ref={navRef}>
                 <Image alt='photo' src={logo} />
                 <ul className='hidden lg:flex justify-around w-9/12'>
@@ -50,7 +50,7 @@ const NavItems: React.FC = () => {
             <ul
                 className={
                     navOpen
-                        ? 'fixed lg:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
+                        ? ' fixed lg:hidden left-0 top-0 w-[60%] z-30 h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
                         : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
                 }
             >
